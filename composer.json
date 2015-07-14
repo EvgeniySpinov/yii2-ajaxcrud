@@ -11,12 +11,29 @@
             "homepage": "https://github.com/johnitvn?tab=repositories"
         }
     ],
+    "repositories":[
+        {
+          "type": "package",
+            "package": {
+                "name": "yiisoft/yii2",
+                "version": "dev-master",
+                "source": {
+                  "url": "https://github.com/GrowlMediaLtd/yii2.git",
+                  "type": "git",
+                  "reference": "master"
+                },
+                "autoload": {
+                  "classmap": [""]
+                }
+            }
+        }
+    ],    
     "support": {
         "issues": "https://github.com/johnitvn/yii2-ajaxcrud/issues?state=open",
         "source": "https://github.com/johnitvn/yii2-ajaxcrud"
     },
     "require": {
-        "yiisoft/yii2": "~2.0.4",
+        "yiisoft/yii2": "dev-master",
         "yiisoft/yii2-gii": "~2.0.4",
         "yiisoft/yii2-bootstrap": "*",
         "johnitvn/yii2-ajaxcrud-assets": "*"      
